@@ -1,0 +1,7 @@
+hdmi
+rams
+sdd
+
+
+mate
+yerba
