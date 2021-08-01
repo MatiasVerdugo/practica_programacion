@@ -1,5 +1,5 @@
-body {line-height: 30px;}
-h1{color: blueviolet;}
+body {line-height: 30px;background-color: grey;}
+h1{color: rgb(47, 213, 255);}
 .lista{color: blue;height: 30px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: justify;}
 img{height: 300px;}
 .linker{cursor: pointer;}
