@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contiene">
+        <div class="cuadrado rojito" onclick="cambiarfondo('red')"></div>
+        <div class="cuadrado verdecito" onclick="cambiarfondo('green')"></div>
+        <div class="cuadrado azulcito"   onclick="cambiarfondo('blue')"></div>
+
+    </div>
+<style>
+    .contiene{
+        display: flex;
+    }
+    .cuadrado
+    {height: 200px;
+    width: 200px;
+    }
+    .rojito
+    {background-color: red;}
+    .verdecito
+    {background-color: green;}
+    .azulcito
+    {background-color: blue;}
+
+</style>
+<script>
+    function cambiarfondo(color){document.querySelector('body').style.background = color}
+</script>
+</body>
+</html>
